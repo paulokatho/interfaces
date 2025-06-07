@@ -3,8 +3,8 @@ package exercicios.lambda.calculo.produto;
 public class Produto {
 
     protected final String nome;
-    protected final double preco;
-    protected final double desconto;
+    protected final Double preco;
+    protected final Double desconto;
 
     public Produto(String nome, double preco, double desconto) {
         this.nome = nome;
@@ -28,4 +28,5 @@ public class Produto {
     public double getDesconto() {
         return desconto;
     }
+
 }
