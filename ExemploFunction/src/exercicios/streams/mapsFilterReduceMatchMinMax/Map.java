@@ -1,4 +1,4 @@
-package exercicios.streams.maps;
+package exercicios.streams.mapsFilterReduceMatchMinMax;
 
 import java.util.Arrays;
 import java.util.List;
