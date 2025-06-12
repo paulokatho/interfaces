@@ -5,14 +5,14 @@ public class CaixaObjetoTeste {
     public static void main(String[] args) {
 
         CaixaObjeto caixaA = new CaixaObjeto();
-        caixaA.aguardar(2.3);// Aqui podemos ter um erro de "ClassCastException"
+        caixaA.guardar(2.3);// Aqui podemos ter um erro de "ClassCastException"
 
         //Integer coisaA = (Integer) caixaA.abrir();// Essa forma da erro de ClassCastException
         Double coisaA = (Double) caixaA.abrir(); // Aqui estamos fazendo o cast correto
         System.out.println(coisaA);
 
         CaixaObjeto caixaB = new CaixaObjeto();
-        caixaB.aguardar("Texto genérico");
+        caixaB.guardar("Texto genérico");
 
         String coisaB = (String) caixaB.abrir();
         System.out.println(coisaB);
